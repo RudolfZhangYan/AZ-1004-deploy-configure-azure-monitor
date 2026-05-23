@@ -40,7 +40,7 @@ This exercise should take approximately **15** minutes to complete. <!-- update 
     | Endpoint name  | IaaSVMCollectionEndpoint   |
     | Subscription	| Your subscription  |
     | Resource Group	| rg-alpha  |
-    | Region	| East US  |
+    | Region	| Central US  |
 
 5. Review the settings and choose **Create**.
 
@@ -56,7 +56,7 @@ This exercise should take approximately **15** minutes to complete. <!-- update 
     | Rule name  | WinVMDCR   |
     | Subscription  | Your subscription   |
     | Resource Group	| rg-alpha  |
-    | Region	| East US  |
+    | Region	| Central US  |
     | Platform type	| Windows  |
     | Data collection endpoint 	| IaaSVMCollectionEndpoint   |
 
@@ -108,7 +108,7 @@ This exercise should take approximately **15** minutes to complete. <!-- update 
     |:---------|:---------|
     | Connection Monitor name  | LinuxVMPubIP   |
     | Subscription  | Your subscription   |
-    | Region	| East US 2 |
+    | Region	| Central US |
     | Workspace	| LogAnalytics1  |
 
 5. On the **Add test group details** page, enter the name **LinuxIPTest** and choose **Add sources**.
