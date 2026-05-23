@@ -38,7 +38,7 @@ This exercise should take approximately **10** minutes to complete. <!-- update 
     | Subscription   | Your subscription|
     | Resource Group | rg-alpha         |
     | Name           | LogAnalytics1    |
-    | Region         | East US          |
+    | Region         | Central US          |
 
 4. Choose **Review + Create**.
 5. Review the information and choose **Create**.
@@ -51,7 +51,7 @@ This exercise should take approximately **10** minutes to complete. <!-- update 
     - **Rule name:** DCR-Linux-VM
     - **Subscription:** Your subscription
     - **Resource Group:** rg-alpha
-    - **Region:** East US (choose the region matching your VM/workspace)
+    - **Region:** Central US (choose the region matching your VM/workspace)
     - **Platform type:** Select Linux
     - Select **Next: Resources >**
 4. Under **Resources**, select **+ Add resources**.
