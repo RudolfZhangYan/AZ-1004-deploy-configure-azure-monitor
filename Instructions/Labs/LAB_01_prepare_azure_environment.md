@@ -25,10 +25,10 @@ This set of lab exercises assumes that you have global administrator permissions
 
 1. In the Azure Portal Search Bar, enter **Resource Groups** and select **Resource groups** from the list of results.
 1. On the **Resource Groups** page, select **Create**.
-1. On the **Create a Resource Group** page, select your subscription and enter the name rg-alpha. Set the region to East US, choose **Review + Create**, and then choose **Create**.
+1. On the **Create a Resource Group** page, select your subscription and enter the name rg-alpha. Set the region to Central US, choose **Review + Create**, and then choose **Create**.
 
 > [!NOTE]
-> This set of exercises assumes that you choose to deploy in the East US Region, but you can change this to another region if you choose. Just remember that each time you see East US mentioned in these instructions you will need to substitute the region you have chosen.
+> This set of exercises assumes that you choose to deploy in the Central US Region, but you can change this to another region if you choose. Just remember that each time you see Central US mentioned in these instructions you will need to substitute the region you have chosen.
 
 ## Create App Log Examiners security group
 
@@ -60,7 +60,7 @@ In this exercise, you deploy and configure a Windows Server virtual machine.
     | Subscription  | Your subscription   |
     | Resource Group	| rg-alpha  |
     | Virtual machine name	| WS-VM1   |
-    | Region	| East US  |
+    | Region	| Central US  |
     | Availability options	| No infrastructure redundancy required  |
     | Security type	| Standard   |
     | Image	| Windows Server 2022 Datacenter: Azure Edition – x64 Gen2  |
@@ -119,7 +119,7 @@ In this exercise you deploy and configure a Linux virtual machine.
     | Subscription  | Your subscription   |
     | Resource Group	| rg-alpha  |
     | Virutal machine name	| Linux-VM2   |
-    | Region	| East US  |
+    | Region	| Central US  |
     | Availability options	| No infrastructure redundancy required  |
     | Security type	| Standard   |
     | Image	| Ubuntu Server 20.04 LTs – x64 Gen2  |
@@ -153,7 +153,7 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/micr
     |:---------|:---------|
     | Subscription  | Your subscription   |
     | Resource Group	| rg-alpha  |
-    | Region	| East US  |
+    | Region	| Central US  |
     | Sku Name	| F1  |
     | Sku Capacity	| 1   |
     | Sql Administrator Login	| prime  |
@@ -174,7 +174,7 @@ https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/webap
     |:---------|:---------|
     | Subscription  | Your subscription   |
     | Resource Group	| rg-alpha  |
-    | Region	| East US  |
+    | Region	| Central US  |
     | Web app Name	| AzureLinuxAppWXYZ (assign a random number to the final four characters of the name)  |
     | Sku 	| S1   |
     | Linux Fx version	| php|7.4  |
