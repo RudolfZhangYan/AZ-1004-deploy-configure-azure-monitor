@@ -19,29 +19,13 @@ In this exercise, you’ll prepare the environment for the guided project.
 
 This exercise should take approximately **30** minutes to complete. <!-- update with estimated duration -->
 
-### Set the correct subscription
-
-Before starting the lab, switch your Azure context to the required subscription.
-
-If you are using Azure PowerShell, run:
-
-```powershell
-$subscriptionId = "d470c937-42bc-4a9c-9831-116799e343d9"
-Set-AzContext -Subscription $subscriptionId -ErrorAction Stop
-Get-AzContext | Format-List Account, Tenant, Subscription
-```
-If you are using Azure CLI, run:
-```Azure CLI
-az account set --subscription d470c937-42bc-4a9c-9831-116799e343d9
-az account show --output table
-```
 ## Prepare your bring-your-own-subscription (BYOS)
 
 This set of lab exercises assumes that you have global administrator permissions to an Azure subscription.
 
 1. In the Azure Portal Search Bar, enter **Resource Groups** and select **Resource groups** from the list of results.
 1. On the **Resource Groups** page, select **Create**.
-1. On the **Create a Resource Group** page, select subscription "d470c937-42bc-4a9c-9831-116799e343d9" and enter the name rg-alpha. Set the region to Central US, choose **Review + Create**, and then choose **Create**.
+1. On the **Create a Resource Group** page, select your subscription and enter the name rg-alpha. Set the region to Central US, choose **Review + Create**, and then choose **Create**.
 
 > [!NOTE]
 > This set of exercises assumes that you choose to deploy in the Central US Region, but you can change this to another region if you choose. Just remember that each time you see Central US mentioned in these instructions you will need to substitute the region you have chosen.
