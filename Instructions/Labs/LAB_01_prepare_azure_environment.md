@@ -19,6 +19,22 @@ In this exercise, you’ll prepare the environment for the guided project.
 
 This exercise should take approximately **30** minutes to complete. <!-- update with estimated duration -->
 
+### Set the correct subscription
+
+Before starting the lab, switch your Azure context to the required subscription.
+
+If you are using Azure PowerShell, run:
+
+```powershell
+$subscriptionId = "d470c937-42bc-4a9c-9831-116799e343d9"
+Set-AzContext -Subscription $subscriptionId -ErrorAction Stop
+Get-AzContext | Format-List Account, Tenant, Subscription
+
+If you are using Azure CLI, run:
+```Azure CLI
+az account set --subscription d470c937-42bc-4a9c-9831-116799e343d9
+az account show --output table
+
 ## Prepare your bring-your-own-subscription (BYOS)
 
 This set of lab exercises assumes that you have global administrator permissions to an Azure subscription.
