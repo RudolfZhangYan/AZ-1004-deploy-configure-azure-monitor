@@ -41,7 +41,7 @@ This set of lab exercises assumes that you have global administrator permissions
 
 1. In the Azure Portal Search Bar, enter **Resource Groups** and select **Resource groups** from the list of results.
 1. On the **Resource Groups** page, select **Create**.
-1. On the **Create a Resource Group** page, select your subscription and enter the name rg-alpha. Set the region to Central US, choose **Review + Create**, and then choose **Create**.
+1. On the **Create a Resource Group** page, select subscription "d470c937-42bc-4a9c-9831-116799e343d9" and enter the name rg-alpha. Set the region to Central US, choose **Review + Create**, and then choose **Create**.
 
 > [!NOTE]
 > This set of exercises assumes that you choose to deploy in the Central US Region, but you can change this to another region if you choose. Just remember that each time you see Central US mentioned in these instructions you will need to substitute the region you have chosen.
